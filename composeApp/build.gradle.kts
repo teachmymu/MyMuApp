@@ -50,7 +50,6 @@ kotlin {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
             implementation(libs.play.services.auth)
-
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -61,12 +60,17 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
-
-
             implementation(libs.firebase.gitlive.common)
             implementation(libs.firebase.gitlive.auth)
+
+            implementation(libs.navigation.compose)
+            implementation("com.google.code.gson:gson:2.8.8")
+
+
+
+
         }
-    }
+}
 }
 
 android {

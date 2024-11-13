@@ -18,10 +18,12 @@ kotlin = "2.0.20"
 firebase-crashlytics-plugin = "2.9.9"
 google-play-services = "4.4.1"
 firebase-bom = "32.7.4"
+navigationCompose = "2.7.0-alpha07"
 playServicesAuth = "21.0.0"
 gitlive-firebase = "1.10.4"
 uiDesktop = "1.7.0"
 uiGraphicsAndroid = "1.7.2"
+
 
 
 [libraries]
@@ -48,6 +50,7 @@ firebase-crashlyticsKtx = { module = "com.google.firebase:firebase-crashlytics-k
 firebase-gitlive-common = { module = "dev.gitlive:firebase-common", version.ref = "gitlive-firebase" }
 firebase-gitlive-auth = { module = "dev.gitlive:firebase-auth", version.ref = "gitlive-firebase" }
 
+navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
 androidx-ui-graphics-android = { group = "androidx.compose.ui", name = "ui-graphics-android", version.ref = "uiGraphicsAndroid" }
 
